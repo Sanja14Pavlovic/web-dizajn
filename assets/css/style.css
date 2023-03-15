@@ -236,8 +236,9 @@ body{
     margin-top: 6%;
     height: 400px;
     width: 400px;
-    background-image: url("../images/crnaRupa-course.jpg");
+    background-image: url("../images/autor.jpg");
     background-size: cover;
+    position: center;
     border: 2px solid #fff;
     border-radius: 30px;
 }
@@ -249,9 +250,14 @@ body{
     border: 5px solid #fff;
     border-radius: 30px;
 }
+.about-author h4{
+    padding-top: 40px;
+    font-size: 40px;
+    color: #fff;
+}
 .about-author p{
     font-size: 22px;
-    margin-top: 20%;
+    margin-top: 10%;
     color:#fff;
 }
 .button-holder{
