@@ -1,0 +1,349 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #e2e2e2;
+}
+.menu li a{
+    border-bottom: 4px solid rgb(25, 25, 102);
+}
+.menu li a:hover{
+    border-bottom: 4px solid #fff;
+}
+#welcome-block{
+    background-image: url("../images/pozadina.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.indexPage{
+    height: 1600px;
+}
+.galeryPage{
+    height: 3300px;
+}
+.authorPage{
+    height: 1200px;
+}
+.contactPage{
+    height: 1250px;
+}
+.productsPage{
+    height: 4450px;
+}
+#welcome-block h1{
+    color: white;
+    text-align: center;
+    text-shadow: 4px 4px black;
+    font-weight: 400;
+    font-size: 60px;
+    padding-top: 100px;
+}
+#welcome-block h2{
+    color: white;
+    text-align: center;
+    text-shadow: 3px 3px blue;
+    font-size: 40px;
+}
+#header{
+    width: 100%;
+    height: 120px;
+    background-color:#01060c;
+    display: flex;
+    flex-wrap: nowrap;
+}
+#logo{
+    background-image: url("../images/logo2.png");
+    background-size: cover;
+    height: 110px;
+    width: 160px;
+    margin-left: 100px;
+    margin-top: 5px; 
+}
+#header-menu{
+    height: 100px;
+    width: 90%;
+    margin: 10px;
+}
+.menu {
+    list-style-type:none;
+    display: flex;
+    margin: 35px 50px;
+    gap: 180px;
+    justify-content: flex-end;
+}
+.menu li a{
+    font-size: 22px;
+    text-decoration: none;
+    color:white;
+}
+.menu li{
+    border: 1px solid black;
+    border-radius: 5px;
+}
+#footer{
+    width: 100%;
+    height: 130px;
+    background-color: #01060d;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+.block{
+    width: auto;
+    height: 50px;
+    margin: 20px 20px;
+    padding: 20px;
+}
+.block a{
+    color:white;
+    font-size: 20px;
+    margin-right: 10px;
+}
+.block p{
+    font-size: 18px;
+    text-align: center;
+    color:white;
+}
+#content{
+    margin-top: 10%;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content:center;
+}
+.what-products{
+    background-color: rgb(11,21,46,80%);
+    width:100%;
+    height: 400px;
+    text-align: center;
+    margin-top: 50px;
+    border-top: 4px solid #fff;
+    border-bottom: 4px solid #fff;
+}
+.what-products h3{
+    font-size: 40px;
+    padding-top: 5%;
+    color:white;
+}
+.what-products p{
+    font-size: 25px;
+    padding-top: 2%;
+    color: white;
+}
+.button{
+    margin-top: 2%;
+    width: 100px;
+    height: 50px;
+    background-color: #01060d;
+    color:white;
+    border-radius: 10%;
+    border: 4px solid #fff;
+
+}
+.button:hover{
+    background-color: white;
+    color: black;
+}
+.start-text{
+    width: 100%;
+    height: 300px;
+    background-color: rgba(0,0,0,95%);
+    position:relative;
+    top:100px;
+    opacity: 0.8;
+    border-top: 4px solid #fff;
+    border-bottom: 4px solid #fff;
+    margin-bottom: 200px;
+}
+.more-content-indexpage{
+    background-color: rgba(0,0,0,95%);
+    width:100%;
+    height: 400px;
+    text-align: center;
+    margin-top: 200px;
+    border-top: 4px solid #fff;
+    border-bottom: 4px solid #fff;
+}
+.more-content-indexpage h3{
+    font-size: 40px;
+    padding-top: 5%;
+    color:white;
+}
+.more-content-indexpage p{
+    font-size: 25px;
+    padding-top: 2%;
+    color: white;
+}
+#galery{
+    height: 2800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    width: 100%;
+}
+.images{
+    width: 500px;
+    height: 500px;
+    border: 10px solid #fff;
+}
+.images:hover{
+    width: 550px;
+    height: 550px;
+}
+.images img:hover{
+    width: 550px;
+    height: 550px;
+}
+#author{
+    display: flex;
+    justify-content: space-around;
+    background-color: #000;
+    width:90%;
+    height: 600px;
+    text-align: center;
+    margin: 80px auto;
+    border: 2px solid #fff;
+    border-radius: 10px;
+}
+.author-img{
+    margin-top: 6%;
+    height: 400px;
+    width: 400px;
+    background-image: url("/assets/images/g11.jpg");
+    background-size: cover;
+    border: 2px solid #fff;
+    border-radius: 30px;
+}
+.about-author{
+    margin-top: 6%;
+    height: 400px;
+    width: 600px;
+    background-color: hwb(222 9% 68% / 0.51);
+    border: 5px solid #fff;
+    border-radius: 30px;
+}
+.about-author p{
+    font-size: 22px;
+    margin-top: 20%;
+    color:#fff;
+}
+.button-holder{
+    margin: 0px auto;
+}
+#form-holder{
+    width: 100%;
+    height: 600px;
+    background-color: #000305;
+    border-top: 4px solid #fff;
+    border-bottom: 4px solid #fff;
+    margin-top: 2%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+form{
+    margin: 0px auto;
+}
+.text{
+    font-size: 25px;
+    margin-bottom: 25px;
+    border: 5px solid #fff;
+    color: #01060d;
+    background-color: #01060d;
+    color: #fff;
+    border-radius: 10px;
+    padding: 5px;
+}
+.mail{
+    font-size: 25px;
+    margin-bottom: 25px;
+    border: 5px solid #fff;
+    color: #01060d;
+    background-color: #01060d;
+    color: #fff;
+    border-radius: 10px;
+    padding: 5px;
+}
+#dropdown-list{
+    font-size: 25px;
+    margin-bottom: 25px;
+    border: 5px solid #fff;
+    background-color: #01060d;
+    color: #fff;
+    border-radius: 10px;
+    padding: 5px;
+}
+.mess{
+    font-size: 25px;
+    margin-bottom: 25px;
+    color: #fff;
+    padding: 5px;
+}
+#button{
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    color: #fff;
+    border: 5px solid #fff;
+    background-color: #01060d;
+    border-radius: 10px;
+}
+.course-holder{
+    width: 80%;
+    height: 480px;
+    background-color: #000;
+    margin: 80px auto;
+    border-radius: 10px;
+
+}
+.kurs{
+    display: flex;
+    justify-content: space-around;
+}
+.course-image{
+    width: 500px;
+    height: 380px;
+    background-color: #fff;
+    margin-top: 25px;
+    border-radius: 10px;
+}
+.course-image img{
+    width: 500px;
+    height: 380px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+}
+.course-text{
+    width: 700px;
+    height: 380px;
+    background-color: #fff;
+    margin-top: 25px;
+    border-radius: 10px;
+}
+.course-text h3{
+    font-size: 40px;
+    text-align: center;
+}
+.course-text p{
+    font-size: 20px;
+    text-align: center;
+    padding-top: 40px;
+}
+.button-holder{
+    text-align: center;
+    margin: 15px auto;
+
+}
+.kupi{
+    padding: 6px;
+    border-radius: 7px;
+    font-size: 22px;
+}
+
+
+
