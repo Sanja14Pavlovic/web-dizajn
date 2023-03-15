@@ -4,8 +4,10 @@
 }
 body{
     background-color: #e2e2e2;
+    font-family: 'Montserrat', sans-serif;
 }
 .menu li a{
+    transition: 0.7s;
     border-bottom: 4px solid rgb(25, 25, 102);
 }
 .menu li a:hover{
@@ -41,12 +43,18 @@ body{
     font-weight: 400;
     font-size: 60px;
     padding-top: 100px;
+    position: relative;
+    animation-name: logo;
+    animation-duration: 0.7s;
 }
 #welcome-block h2{
     color: white;
     text-align: center;
     text-shadow: 3px 3px blue;
     font-size: 40px;
+    animation-name: menu;
+    animation-duration: 0.7s;
+    position: relative;
 }
 #header{
     width: 100%;
@@ -62,6 +70,9 @@ body{
     width: 160px;
     margin-left: 100px;
     margin-top: 5px; 
+    position: relative;
+    animation-name: logo;
+    animation-duration: 1s;
 }
 #header-menu{
     height: 100px;
@@ -74,6 +85,9 @@ body{
     margin: 35px 50px;
     gap: 180px;
     justify-content: flex-end;
+    position: relative;
+    animation-name: menu;
+    animation-duration: 1s;
 }
 .menu li a{
     font-size: 22px;
@@ -99,12 +113,16 @@ body{
     padding: 20px;
 }
 .block a{
+    transition: 0.5s;
     color:white;
-    font-size: 20px;
-    margin-right: 10px;
+    font-size: 30px;
+    padding: 20px;
+}
+.block a:hover{
+    color:rgb(25, 25, 102);
 }
 .block p{
-    font-size: 18px;
+    font-size: 24px;
     text-align: center;
     color:white;
 }
@@ -135,6 +153,7 @@ body{
     color: white;
 }
 .button{
+    transition: 0.5s;
     margin-top: 2%;
     width: 100px;
     height: 50px;
@@ -159,6 +178,7 @@ body{
     border-bottom: 4px solid #fff;
     margin-bottom: 200px;
 }
+
 .more-content-indexpage{
     background-color: rgba(0,0,0,95%);
     width:100%;
@@ -194,11 +214,13 @@ body{
 .images:hover{
     width: 550px;
     height: 550px;
+    border-radius: 20px;
 }
 .images img:hover{
     width: 550px;
     height: 550px;
-}
+    border-radius: 20px;
+} 
 #author{
     display: flex;
     justify-content: space-around;
@@ -214,7 +236,7 @@ body{
     margin-top: 6%;
     height: 400px;
     width: 400px;
-    background-image: url("/assets/images/g11.jpg");
+    background-image: url("../images/crnaRupa-course.jpg");
     background-size: cover;
     border: 2px solid #fff;
     border-radius: 30px;
@@ -236,12 +258,13 @@ body{
     margin: 0px auto;
 }
 #form-holder{
-    width: 100%;
+    width: 30%;
     height: 600px;
-    background-color: #000305;
-    border-top: 4px solid #fff;
-    border-bottom: 4px solid #fff;
-    margin-top: 2%;
+    background-color: rgba(0,0,0,95%);
+    opacity: 0.9;
+    border: 4px solid #fff;
+    border-radius: 20px;
+    margin: 0px auto;
     display: flex;
     text-align: center;
     align-items: center;
@@ -296,10 +319,9 @@ form{
 .course-holder{
     width: 80%;
     height: 480px;
-    background-color: #000;
+    background-color: #061c4ab1;
     margin: 80px auto;
     border-radius: 10px;
-
 }
 .kurs{
     display: flex;
@@ -321,29 +343,55 @@ form{
 .course-text{
     width: 700px;
     height: 380px;
-    background-color: #fff;
+    background-color: rgba(3, 3, 11, 0.798);
     margin-top: 25px;
     border-radius: 10px;
+    border: 2px solid #fff;
 }
 .course-text h3{
     font-size: 40px;
     text-align: center;
+    color: #fff;
 }
 .course-text p{
-    font-size: 20px;
+    font-size: 18px;
     text-align: center;
-    padding-top: 40px;
+    color:#fff;
+    padding: 5px;
 }
 .button-holder{
     text-align: center;
     margin: 15px auto;
+    color:#fff;
 
 }
 .kupi{
     padding: 6px;
     border-radius: 7px;
     font-size: 22px;
+    color: #fff;
+    background-color: #000;
+    border: 2px solid #fff;
+    border-radius: 10px;
 }
-
-
+@keyframes tekstAnimacija{
+    from{margin:-5000px;}
+    to{margin: 0px auto;}
+}
+@keyframes menu{
+    0%{
+        right: -1000px;
+    }
+    100%{
+        right: 0px;
+    }
+}
+@keyframes logo{
+    0%{
+        left: -1000px;
+    }
+    100%{
+        left: 0px;
+    }
+}
 

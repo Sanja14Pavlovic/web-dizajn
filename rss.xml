@@ -1,0 +1,27 @@
+<rss version="2.0">
+    <channel>
+        <title>GalacticEx</title>
+        <link>https://sanja14pavlovic.github.io/web-dizajn/</link>
+        <description>Novosti na početnoj strani.</description>
+    </channel>
+    <item>
+        <title>Kursevi</title>
+        <link>https://sanja14pavlovic.github.io/web-dizajn/Proizvodi.html</link>
+        <description>Novosti o kursevima.</description>
+    </item>
+        <item>
+        <title>Galerija</title>
+        <link>https://sanja14pavlovic.github.io/web-dizajn/Galerija.html</link>
+        <description>Novosti o gelriji.</description>
+    </item>
+        <item>
+        <title>Kontakt</title>
+        <link>https://sanja14pavlovic.github.io/web-dizajn/Kontakt.html</link>
+        <description>Novosti o  kontakt stranici.</description>
+    </item>
+    <item>
+        <title>Autor</title>
+        <link>https://sanja14pavlovic.github.io/web-dizajn/OAutoru.html</link>
+        <description>Novosti o autoru.</description>
+    </item>
+</rss>
